@@ -1,0 +1,78 @@
+@charset "utf-8";
+/**
+ * 作者：周双龙
+ * 时间：2016/12/9
+ * 描述：threejs
+ */
+/*----------import module----------*/
+@import "../../libs/scss/bourbon/bourbon";
+@import "../../libs/scss/normalize";
+@import "../../libs/scss/public";
+@import "../../libs/scss/rem";
+
+/*----------my style----------*/
+body {
+    background: #fff;
+}
+
+.mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    height: 100%;
+    width: 100%;
+    z-index: 9998;
+}
+
+.video-wrap {
+    margin: -228px 0 0 -375px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background: url("../images/video-bg.png") no-repeat center;
+    display: none;
+    height: 457px;
+    width: 750px;
+    z-index: 9999;
+    a.video-close {
+        margin: 0 0 0 -15px;
+        position: absolute;
+        bottom: -45px;
+        left: 50%;
+        background: #fff;
+        border-radius: 3px;
+        display: block;
+        height: 30px;
+        width: 30px;
+        color: #666;
+        font-family: "Microsoft YaHei UI Light", "Microsoft YaHei";
+        font-size: 34px;
+        font-weight: bold;
+        line-height: 30px;
+        text-align: center;
+    }
+    .video-con {
+        position: absolute;
+        left: 27px;
+        top: 25px;
+        height: 395px;
+        width: 698px;
+        overflow: hidden;
+        .iframe{
+            position: absolute;
+            left: 0;
+            top: -62px;
+            height: 524px;
+            width: 698px;
+        }
+        .video {
+            position: absolute;
+            left: 0;
+            top: -62px;
+            height: 524px;
+            width: 698px;
+        }
+    }
+}
