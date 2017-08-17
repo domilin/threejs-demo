@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --profile --colors --hot --port 3000",
+    "dev": "webpack-dev-server --progress --profile --colors --hot --port 3012",
     "build": "SET BABEL_ENV=production&webpack --config webpack.config.production.js"
   },
   "keywords": [],
