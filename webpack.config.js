@@ -72,6 +72,6 @@ module.exports = {
         historyApiFallback: true,
         progress: true,
         contentBase: ROOT_PATH,
-        host: '10.0.4.6'
+        host: '10.0.8.65'
     }
 };
